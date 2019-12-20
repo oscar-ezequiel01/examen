@@ -1,0 +1,60 @@
+body{background-color: rgb(226, 207, 210);}
+
+#wrapper {width:95%;
+    margin:auto;}
+
+header{background-image: url("imagenes/header.jpg");
+height: 200px;
+background-size:cover;
+background-position:right;
+color:white;
+top:100px
+}
+
+/**** alinear el texto del header lo intente con header p{} y no fui capaz y me estrese 12:41 20/12/2019******/
+
+nav{
+    list-style: none;
+    background-color: rgb(69, 171, 240);
+   
+}
+
+nav li{
+    display: inline-block;
+padding: 1%;
+}
+
+nav  li a {color:white;
+    text-decoration:none;
+    font-size:1.2em;
+    font-weight:bold;}
+
+    nav  li a:hover {color:rgb(230, 54, 221);}
+
+main{
+background-color: rgb(192, 189, 189);}
+main h1{margin:0;
+    text-align: center;
+color: rgb(216, 87, 109);}
+main p{ text-align: justify;
+
+}
+
+main img{height: 150px;
+margin:2%;
+border-radius: 14%;
+box-shadow: rgb(41, 40, 40) 5px 5px 5px 5px ;
+
+}
+
+
+footer{ background-color: rgb(69, 171, 240);
+}
+footer p{margin-top:0;
+    
+    text-align:center;
+    color:white;}
+
+/*** esa cosa del margen o lo que sea para que se pegen me trae por la calle de la amargura 12:40 20/12/2019 ****/
+
+ 
